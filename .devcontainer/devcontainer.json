@@ -1,0 +1,13 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/base:debian",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"johnnymorganz.stylua",
+				"evaera.vscode-rojo",
+				"johnnymorganz.luau-lsp",
+				"kampfkarren.selene-vscode"
+			]
+		}
+	}
+}
