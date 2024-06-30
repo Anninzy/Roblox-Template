@@ -8,6 +8,10 @@ return function(requiringScript)
 	end
 
 	for _name, module in pairs(_G) do
+		if type(module) == "function" then
+			continue
+		end
+
 		if not module.Initialize then
 			continue
 		end
